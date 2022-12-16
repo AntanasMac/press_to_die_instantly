@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<header>
+    <title>Final Solution</title>
+
+</header>
+<html>
+
+<body>
+    <br><br><br>
+    <img src="1.gif" id="seven">
+    <img src="8.png" id="third">
+    <img src="4.gif" id="baga">
+    <img src="5.gif" id="bogo">
+
+    <center>
+        <img src="9.webp" width="300" height="300" id="first">
+    </center>
+    <img src="10.gif" id="bigi">
+    <img src="11.gif" id="bugu">
+
+    <img src="12.gif" id="six">
+
+    <img src="13.webp" width="300" height="300" id="lol">
+    <img src="14.gif" id="five">
+    <center>
+
+
+        <h1>SEEMS LIKE YOU HAVE REACHED THE END MY FRIEND</h1>
+
+
+
+        <img src="7.gif" width="1800" height="900" id="four">
+    </center><br><br><br><br><br><br><br>
+
+
+    <center>
+        <img src="13.gif" width="300" height="300" id="fff">
+    </center>
+    <br><br><br>
+    <center>
+        <button onclick="playMusic(); setBackground()" id="myButton">PRESS TO DIE INSTANTLY</button>
+    </center><br><br><br>
+    <center><img src="3.jfif" id="eigh"></center>
+    <script>
+        function playMusic() {
+            let audio = new Audio('./1.mp3');
+            audio.play();
+
+        }
+        function setBackground() {
+            document.body.style.backgroundImage = "./bg.JPG";
+        }
+        // jei const image nustatai, tai sitas kodas panaikins image kai ant to image paspausi 
+        const image = document.getElementById('first');
+        const image2 = document.getElementById('third');
+        const image3 = document.getElementById('four');
+        const image4 = document.getElementById('five');
+        const image5 = document.getElementById('six');
+        const image6 = document.getElementById('seven');
+        const image7 = document.getElementById('eigh');
+        const image9 = document.getElementById('baga');
+        const image8 = document.getElementById('bogo');
+        const image10 = document.getElementById('bigi');
+        const image11 = document.getElementById('bugu');
+        const image12 = document.getElementById('fff');
+        const image13 = document.getElementById('lol');
+        const buttonDel = document.getElementById('myButton');
+
+
+
+        const button = document.getElementById('myButton');
+        button.addEventListener('click', function () {
+            image.style.display = 'none';
+            image12.style.display = 'none';
+            image2.style.display = 'none';
+            image3.style.display = 'none';
+            image4.style.display = 'none';
+            image5.style.display = 'none';
+            image6.style.display = 'none';
+            image7.style.display = 'none';
+            image8.style.display = 'none';
+            image9.style.display = 'none';
+            image10.style.display = 'none';
+            image11.style.display = 'none';
+            image13.style.display = 'none';
+
+
+            buttonDel.style.display = 'none';
+            document.querySelector('h1').style.display = 'none';
+
+
+        });
+
+    </script>
+    <br><br><br>
+
+
+
+
+
+
+
+
+
+    <style>
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: red;
+
+
+        }
+
+        body {
+
+            background-color: black;
+
+
+        }
+
+
+
+
+        .tekstukas {
+            display: none;
+        }
+    </style>
+
+
+</body>
+
+</html>
